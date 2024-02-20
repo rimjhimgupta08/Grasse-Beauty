@@ -333,5 +333,11 @@
             line-height: 8px;
 
       }
+      .navbar img{
+            width: 180px;
+      }
+      .box p{
+            font-size: .5rem;
+      }
 
 }
