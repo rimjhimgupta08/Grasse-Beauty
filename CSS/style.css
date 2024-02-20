@@ -29,7 +29,7 @@ body{
 }
 .box p{
       color: white;
-      margin-top: 5px;
+      margin-top: 10px;
       font-size: .9rem;
 }
 .navbar{
@@ -37,7 +37,7 @@ body{
       
 }
 .navbar ul{
-      font-size: .9rem;
+      font-size: 1rem;
 }
 .navbar ul li a{
       color: black;
@@ -216,4 +216,35 @@ body{
       font-size: 1.3rem;
       margin-top: 20px;
       margin-bottom: 10px;
+}
+.top-footer{
+      padding: 30px;
+      background-color: #563476;
+      color: white;
+      list-style: none;
+}
+.top-footer .image img{
+      width: 300px;
+}
+.top-footer .image .text{
+      color: white;
+      width: 70%;
+}
+.top-footer .content{
+      margin-top: 20px;
+}
+.bottom-footer{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      background-color: #7C61AA;
+      padding: 5px 10px;
+      line-height: 10px;
+}
+.bottom-footer .para1{
+      color: aliceblue;
+      margin-top: 15px;
+      font-size: 1.2rem;
+      line-height: 8px;
 }
